@@ -1,3 +1,11 @@
 .container {
     max-width: 500px;
 }
+
+#error {
+    display: none;
+}
+
+#output {
+    display: none;
+}
