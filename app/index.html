@@ -18,7 +18,7 @@
 					<input type="number" class="form-control" placeholder="Zip code">
 				</div>
 				<div class="col col-auto">
-					<button class="btn btn-success" type="button">Get Weather</button>
+					<button id="weatherButton" class="btn btn-success" type="button">Get Weather</button>
 				</div>
 			</div>
 		</form>
@@ -34,37 +34,27 @@
 	<div id="output">
 		<div class="card mb-3 border-dark">
 			<div class="card-header bg-warning text-center font-weight-bold border-dark">City</div>
-			<div class="card-body">TODO: stuff goes here</div>
+			<div id="cityOutput" class="card-body text-center"></div>
 		</div>
 		<div class="card mb-3 border-dark">
 			<div class="card-header bg-warning text-center font-weight-bold border-dark">Temperature</div>
 			<div class="card-body">
 				<div class="row align-items-center justify-content-center no-gutters">
-					<div class="border border-secondary col text-center pt-3 pb-3">
-						TODO: K
-					</div>
-					<div class="border border-secondary col text-center pt-3 pb-3">
-						TODO: F
-					</div>
-					<div class="border border-secondary col text-center pt-3 pb-3">
-						TODO: C
-					</div>
+					<div id='temperatureOutputK' class="border border-secondary col text-center pt-3 pb-3"></div>
+					<div id='temperatureOutputF' class="border border-secondary col text-center pt-3 pb-3"></div>
+					<div id='temperatureOutputC' class="border border-secondary col text-center pt-3 pb-3"></div>
 				</div>
 			</div>
 		</div>
 		<div class="card mb-3 border-dark">
 			<div class="card-header bg-warning text-center font-weight-bold border-dark">Condition</div>
-			<div class="card-body">TODO: stuff goes here</div>
+			<div id="condition" class="card-body text-center"></div>
 		</div>
 		<div class="card mb-3 border-dark">
 			<div class="card-header bg-warning text-center font-weight-bold border-dark">Seasonal Display</div>
 			<div class="card-body">TODO: stuff goes here</div>
 		</div>
 	</div>
-
-
-
-
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
